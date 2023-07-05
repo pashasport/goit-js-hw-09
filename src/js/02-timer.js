@@ -52,7 +52,7 @@ const timer = {
       if (restTime <= 0) {
         timer.stop();
         Notiflix.Notify.success('Timer end!');
-        clearInterval(intervalId);
+
         return;
       }
 
